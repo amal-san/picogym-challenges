@@ -1,12 +1,12 @@
-#Picker I
+# Picker I
 
-#Description
+## Description
 Can you figure out how this program works to get the flag?
 
 
-#Solution
-Source code have funciton called eval. This eval function will evaluatea passed string parameter
+## Solution
+Source code have a funciton called eval. This eval function will evaluatea passed string parameter
 
-For example  eval('print("Hello")') will give output Hello
+For example  `eval('print("Hello")')` will give output as `Hello`
 
 
