@@ -158,10 +158,18 @@ static int a20_test_short(void)
   print(esoteric)
 
 
+def filter(user_input):
+  if 'win' in user_input:
+    return False
+  return True
+
+
 while(True):
   try:
-    print('Try entering "getRandomNumber" without the double quotes...')
     user_input = input('==> ')
-    eval(user_input + '()')
+    if( filter(user_input) ):
+      eval(user_input + '()')
+    else:
+      print('Illegal input')
   except Exception as e:
     print(e)
